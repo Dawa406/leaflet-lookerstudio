@@ -1,0 +1,11 @@
+{
+  "name": "leaflet-lookerstudio",
+  "version": "1.0.0",
+  "description": "Leaflet Polygon visualization for Looker Studio",
+  "main": "src/leaflet.js",
+  "author": "Dawa406",
+  "license": "MIT",
+  "dependencies": {
+    "leaflet": "^1.9.4"
+  }
+}
