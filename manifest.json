@@ -1,23 +1,24 @@
 {
   "dataStudio": {
     "name": "Leaflet Polygon Map",
-    "logoUrl": "https://Dawa406.github.io/leaflet-lookerstudio/logo.png",
     "company": "Dawa406",
-    "privacyPolicyUrl": "https://github.com/Dawa406/leaflet-lookerstudio",
-    "description": "Visualize polygons from GeoJSON fields (BigQuery) using Leaflet.",
-    "helpUrl": "https://github.com/Dawa406/leaflet-lookerstudio"
+    "description": "Display polygons from a GeoJSON field in Looker Studio using Leaflet.",
+    "logoUrl": "https://Dawa406.github.io/leaflet-lookerstudio/logo.png",
+    "helpUrl": "https://github.com/Dawa406/leaflet-lookerstudio",
+    "supportUrl": "https://github.com/Dawa406/leaflet-lookerstudio/issues",
+    "privacyPolicyUrl": "https://github.com/Dawa406/leaflet-lookerstudio"
   },
   "visualization": {
-    "mainJs": "https://Dawa406.github.io/leaflet-lookerstudio/leaflet.js",
-    "mainCss": "https://unpkg.com/leaflet/dist/leaflet.css",
-    "supportedVisualTypes": ["MAP"]
+    "id": "leaflet_polygon_map",
+    "script": "src/leaflet.js",
+    "style": "src/leaflet.css",
+    "supports": ["MAP"]
   },
   "resources": {
-    "js": [
-      "https://Dawa406.github.io/leaflet-lookerstudio/leaflet.js"
-    ],
-    "css": [
-      "https://unpkg.com/leaflet/dist/leaflet.css"
-    ]
+    "js": ["https://unpkg.com/leaflet/dist/leaflet.js"],
+    "css": ["https://unpkg.com/leaflet/dist/leaflet.css"]
+  },
+  "package": {
+    "path": "package.json"
   }
 }
