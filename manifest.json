@@ -6,8 +6,12 @@
     "privacyPolicyUrl": "https://github.com/Dawa406/leaflet-lookerstudio",
     "description": "Visualize polygons from GeoJSON in Looker Studio using Leaflet."
   },
-  "visualization": {
-    "script": "https://Dawa406.github.io/leaflet-lookerstudio/leaflet.js",
-    "css": "https://unpkg.com/leaflet/dist/leaflet.css"
+  "resources": {
+    "js": [
+      "https://Dawa406.github.io/leaflet-lookerstudio/leaflet.js"
+    ],
+    "css": [
+      "https://unpkg.com/leaflet/dist/leaflet.css"
+    ]
   }
 }
