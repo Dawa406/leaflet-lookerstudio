@@ -1,16 +1,13 @@
 {
   "dataStudio": {
-    "name": "Leaflet Polygons (GeoJSON)",
-    "logoUrl": "https://raw.githubusercontent.com/Dawa406/leaflet-lookerstudio/main/logo.png",
-    "shortDescription": "Render polygon GeoJSON field from BigQuery (geojson) with popups using the Name field.",
-    "author": "Dawa Zangpo",
-    "supportUrl": "mailto:you@example.com",
-    "visualizationId": "leaflet_polygons_geojson_v1",
-    "resources": {
-      "script": "https://Dawa406.github.io/leaflet-lookerstudio/viz.js",
-      "css": "https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-    },
-    "configParams": [],
-    "auth": "NONE"
+    "name": "Leaflet Polygon Map",
+    "logoUrl": "https://Dawa406.github.io/leaflet-lookerstudio/logo.png",
+    "company": "Dawa406",
+    "privacyPolicyUrl": "https://github.com/Dawa406/leaflet-lookerstudio",
+    "description": "Visualize polygons from GeoJSON in Looker Studio using Leaflet."
+  },
+  "visualization": {
+    "script": "https://Dawa406.github.io/leaflet-lookerstudio/leaflet.js",
+    "css": "https://unpkg.com/leaflet/dist/leaflet.css"
   }
 }
