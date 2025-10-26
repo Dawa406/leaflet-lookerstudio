@@ -4,7 +4,13 @@
     "logoUrl": "https://Dawa406.github.io/leaflet-lookerstudio/logo.png",
     "company": "Dawa406",
     "privacyPolicyUrl": "https://github.com/Dawa406/leaflet-lookerstudio",
-    "description": "Visualize polygons from GeoJSON in Looker Studio using Leaflet."
+    "description": "Visualize polygons from GeoJSON fields (BigQuery) using Leaflet.",
+    "helpUrl": "https://github.com/Dawa406/leaflet-lookerstudio"
+  },
+  "visualization": {
+    "mainJs": "https://Dawa406.github.io/leaflet-lookerstudio/leaflet.js",
+    "mainCss": "https://unpkg.com/leaflet/dist/leaflet.css",
+    "supportedVisualTypes": ["MAP"]
   },
   "resources": {
     "js": [
